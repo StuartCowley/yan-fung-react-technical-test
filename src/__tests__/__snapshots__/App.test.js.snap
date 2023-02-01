@@ -25,7 +25,7 @@ exports[`App renders correctly 1`] = `
       </button>
     </form>
     <p>
-      Search Results
+      No results
     </p>
   </div>
 </DocumentFragment>
