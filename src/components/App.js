@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Search from "./Search";
+import SearchResults from "./SearchResults";
 import nasaImage from "../styles/Images/nasa-logo.jpeg";
 import "../styles/app.css";
 
@@ -13,6 +14,7 @@ function App() {
         alt="nasa" 
       />
       <Search setsearchResults={setsearchResults} />
+      <SearchResults searchResults={searchResults} />
     </div>
   );
 }
