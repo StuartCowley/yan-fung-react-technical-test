@@ -3,7 +3,6 @@ import "../styles/search_results.css"
 
 const SearchResults = ({ results }) => {
   if (!results?.length) {
-    console.log(results)
     return <p>No results</p>
   } else {
     return (
