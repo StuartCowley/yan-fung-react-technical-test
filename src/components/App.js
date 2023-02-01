@@ -6,6 +6,7 @@ import "../styles/app.css";
 
 function App() {
   const [searchResults, setsearchResults] = useState([]);
+  // console.log(searchResults)
   
   return (
     <div className="app">
@@ -14,7 +15,7 @@ function App() {
         alt="nasa" 
       />
       <Search setSearchResults={setsearchResults} />
-      <SearchResults searchResults={searchResults} />
+      <SearchResults results={searchResults} />
     </div>
   );
 }
