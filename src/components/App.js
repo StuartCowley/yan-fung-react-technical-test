@@ -5,7 +5,7 @@ import nasaImage from "../styles/Images/nasa-logo.jpeg";
 import "../styles/app.css";
 
 function App() {
-  const [searchResults, setsearchResults] = useState();
+  const [searchResults, setsearchResults] = useState([]);
   
   return (
     <div className="app">
@@ -13,7 +13,7 @@ function App() {
         src={nasaImage}
         alt="nasa" 
       />
-      <Search setsearchResults={setsearchResults} />
+      <Search setSearchResults={setsearchResults} />
       <SearchResults searchResults={searchResults} />
     </div>
   );
