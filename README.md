@@ -10,10 +10,11 @@ For this application:
 - Users are able to get the images that are returned by the API.
 
 ### Desktop view
+![Screenshot 2023-02-03 at 10 47 43](https://user-images.githubusercontent.com/106375522/216602265-b19481fb-0886-4acf-8db0-33897bb1ca9d.png)
 
 
 ### Mobile view
-
+![Screenshot 2023-02-03 at 10 48 02](https://user-images.githubusercontent.com/106375522/216602276-7ff7d5bd-46f6-467f-a505-e1dd890ae1a7.png)
 
 ## Quick Start and Commands
 
