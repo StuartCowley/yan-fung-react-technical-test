@@ -1,25 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sofia+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sofia+Sans:wght@200&display=swap");
 
 .search-input {
-    width: 200px;
-    height: 50px;
-    border-radius: 11px;
-    font-size: 20px;
-    padding: 0 10px;
-    align-items: center;
+  width: 400px;
+  height: 80px;
+  border-radius: 11px;
+  font-size: 45px;
+  padding: 0 10px;
+  background-color: rgb(50, 56, 75);
+  opacity: 0.9;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: rgb(199, 180, 180) 1px 2px 2px;
+  
 }
 
 .search-form {
   display: flex;
   flex-direction: row;
+  gap: 10px;
+  padding-top: 50px;
 }
 
 .submit-button {
-  color: black;
-  background-color: transparent;
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 56, 75);
+  opacity: 0.9;
   border-radius: 8px;
-  width: 60px;
-  font-size: 20px;
-  font-family: 'Sofia Sans', sans-serif;
+  font-size: 45px;
+  font-family: "Sofia Sans", sans-serif;
   font-weight: bold;
+  text-shadow: rgb(199, 180, 180) 1px 1px 2px;
+  padding: 10px;
 }
+
+/* Animations */
+.submit-button:hover {
+  color: rgb(23, 3, 41);
+  font-size: 45px;
+  background-color:rgb(204, 210, 214);
+  opacity: 0.8;
+  box-shadow: white;
+}
+

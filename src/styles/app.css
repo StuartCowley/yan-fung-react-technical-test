@@ -1,15 +1,20 @@
 .app {
+  margin: 20px;
+  height: 100vh;
+  font-size: 55px;
+  text-shadow: rgb(232, 240, 244) 2px 2px 2px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  justify-content: center;
-  font-size: 25px;
   font-weight: bolder;
+  background-color: rgb(21, 16, 100);
+  color: aliceblue;
+  background-image: url(./Images/stars.gif);
 }
 
 .nasa-logo {
-  margin: auto;
-  height: 300px;
-  width: 500px;
+  margin: 20px;
+  height: 150px;
+  padding-top: 50px;
 }
