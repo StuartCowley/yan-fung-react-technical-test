@@ -42,6 +42,6 @@ npm test
 ```
 
 ## Authors
-Yan Fung
+🧑‍🚀 Yan Fung
 - GitHub [@yan-fung](https://github.com/yan-fung)
 - LinkedIn [@yan-fung](https://www.linkedin.com/in/yan-fung-4082401a4/)
