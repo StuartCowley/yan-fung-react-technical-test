@@ -21,7 +21,7 @@ exports[`App renders correctly 1`] = `
         class="submit-button"
         type="submit"
       >
-        GO!
+        LET'S GO!
       </button>
     </form>
     <p>
