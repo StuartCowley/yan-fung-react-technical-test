@@ -9,10 +9,10 @@ const getImages = (query) => {
       .then((response) => {
         const imagesResults = response.data.collection.items;
         const parsedImages = imagesResults.filter((image) => {
-            return image.data[0].media_type === "image";
+          return image.data[0].media_type === "image";
         });
         const images = parsedImages.map((image) => {
-            return image.links[0].href;
+          return image.links[0].href;
         });
         return images;
       })
@@ -20,6 +20,6 @@ const getImages = (query) => {
         console.log(err);
       });
   }
-}
+};
 
 export default getImages;
