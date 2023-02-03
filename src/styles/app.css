@@ -1,7 +1,7 @@
 .app {
   margin: 20px;
   height: 100vh;
-  font-size: 55px;
+  font-size: 35px;
   text-shadow: rgb(232, 240, 244) 2px 2px 2px;
   border-radius: 20px;
   display: flex;
@@ -17,4 +17,11 @@
   margin: 20px;
   height: 150px;
   padding-top: 50px;
+}
+
+/* Mobile device */
+@media (max-width: 1200px) {
+  .nasa-logo {
+    height: 100px;
+  }
 }
