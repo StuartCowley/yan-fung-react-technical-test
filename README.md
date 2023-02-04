@@ -41,6 +41,20 @@ npm start
 npm test
 ```
 
+## Technology
+- [Jest](https://jestjs.io/docs/getting-started) and [React Testing library](https://testing-library.com/docs/react-testing-library/intro/) are used for testing purposes.
+- [Axios](https://www.npmjs.com/package/axios) is used to perform HTTP requests for retrieving data from the API
+- [PropTypes](https://www.npmjs.com/package/prop-types) is used for validating props.
+
+## How To Use
+Enter the name of stars or planets in the search bar to get the images.
+
+## Improvements & Further Development
+If I would have more time, I would like to add the following features and to my application:
+- Making the application more repsonsive to different sizes of device.
+- Allowing users to see some basic info regarding the stars/planets alongside the images.
+- Changing the UI design to make it more appealing and user-friendly. 
+
 ## Authors
 🧑‍🚀 Yan Fung
 - GitHub [@yan-fung](https://github.com/yan-fung)
