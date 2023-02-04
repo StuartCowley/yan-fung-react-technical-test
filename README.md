@@ -47,7 +47,7 @@ npm test
 - [PropTypes](https://www.npmjs.com/package/prop-types) is used for validating props.
 
 ## How To Use
-Enter the name of stars or planets in the search bar to get the images.
+Enter the name of the stars or planets in the search bar to get the images.
 
 ## Improvements & Further Development
 If I would have more time, I would like to add the following features and to my application:
