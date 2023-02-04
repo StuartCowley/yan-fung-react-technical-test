@@ -50,7 +50,7 @@ npm test
 Enter the name of the stars or planets in the search bar to get the images.
 
 ## Improvements & Further Development
-If I would have more time, I would like to add the following features and to my application:
+If I would have more time, I would like to add the following features to my application:
 - Making the application more repsonsive to different sizes of device.
 - Allowing users to see some basic info regarding the stars/planets alongside the images.
 - Changing the UI design to make it more appealing and user-friendly. 
