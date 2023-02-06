@@ -1,0 +1,27 @@
+.app {
+  margin: 20px;
+  height: 100vh;
+  font-size: 35px;
+  text-shadow: rgb(232, 240, 244) 2px 2px 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  background-color: rgb(21, 16, 100);
+  color: aliceblue;
+  background-image: url(./Images/stars.gif);
+}
+
+.nasa-logo {
+  margin: 20px;
+  height: 120px;
+  padding-top: 50px;
+}
+
+/* Mobile device */
+@media (max-width: 1200px) {
+  .nasa-logo {
+    height: 100px;
+  }
+}
